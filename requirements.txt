@@ -1,0 +1,40 @@
+# Core
+pandas
+numpy
+scipy
+
+# Modeling
+scikit-learn
+catboost
+xgboost
+lightgbm
+statsmodels
+scikit-posthocs
+shap
+
+# Visualization
+matplotlib
+seaborn
+wordcloud
+
+# Audio feature extraction
+librosa
+essentia-tensorflow
+soundfile
+webrtcvad
+
+# Visual feature extraction
+opencv-python
+
+# Text / NLP
+konlpy
+nltk
+
+# Crawling
+requests
+selenium
+webdriver-manager
+yt-dlp
+
+# Utilities
+tqdm
