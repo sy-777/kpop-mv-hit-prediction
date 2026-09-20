@@ -1,0 +1,47 @@
+# Data (crawled / generated locally — large and not committed to GitHub)
+# data/ 폴더 전체: 수집 결과(raw/), 병합 통합본, 분석용 데이터(data(drop_duplicated).csv)
+data/
+
+# Local-only working folders (kept on this machine, not uploaded to GitHub)
+archive/
+archive_2/
+data_preparation/
+
+# Data files generated elsewhere (e.g. CSV outputs of the modeling notebooks)
+*.csv
+*.json
+
+# Model outputs created when running the modeling/ notebooks (CSV outputs are covered above)
+catboost_info/
+modeling/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Windows "downloaded from internet" metadata (WSL artifact)
+*:Zone.Identifier
+
+# Editor
+.vscode/
+.idea/
