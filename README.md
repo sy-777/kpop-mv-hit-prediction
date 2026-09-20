@@ -66,7 +66,7 @@ pip install -r requirements.txt
 ```
 data/
 ├── raw/                                                 수집·피처 추출 결과 (저장소 미포함)
-├── kpop_radar_2023_2025_dedup_merged_features.csv       병합 통합본 (deduplication 노트북의 입력)
+├── ..._2023_2025_dedup_merged_features.csv              병합 통합본 (deduplication 노트북의 입력)
 └── data(drop_duplicated).csv                            분석용 데이터 (eda, modeling 노트북의 입력)
 ```
 
